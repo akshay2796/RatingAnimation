@@ -9,9 +9,7 @@ function App() {
 				maxRating={5}
 				color={'blue'}
 				size={40}
-				style={{
-					marginHorizontal: 10,
-				}}
+				style={styles.rating}
 			/>
 		</View>
 	);
@@ -22,6 +20,9 @@ const styles = StyleSheet.create({
 		flex: 1,
 		alignItems: 'center',
 		justifyContent: 'center',
+	},
+	rating: {
+		marginHorizontal: 8,
 	},
 });
 
